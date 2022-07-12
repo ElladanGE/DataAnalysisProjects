@@ -1,0 +1,29 @@
+
+Call:
+lm(formula = hours10 ~ insecticide * dose, data = mosquito)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.32500 -0.04875  0.00500  0.04312  0.42500 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)              0.81250    0.07457  10.896 5.98e-13 ***
+insecticideB             0.06750    0.10546   0.640  0.52618    
+insecticideC            -0.04500    0.10546  -0.427  0.67213    
+insecticideD            -0.20250    0.10546  -1.920  0.06278 .  
+dosemedium              -0.09250    0.10546  -0.877  0.38623    
+dosehigh                -0.32250    0.10546  -3.058  0.00419 ** 
+insecticideB:dosemedium  0.02750    0.14914   0.184  0.85474    
+insecticideC:dosemedium -0.10000    0.14914  -0.671  0.50681    
+insecticideD:dosemedium  0.02000    0.14914   0.134  0.89407    
+insecticideB:dosehigh   -0.46250    0.14914  -3.101  0.00374 ** 
+insecticideC:dosehigh   -0.18000    0.14914  -1.207  0.23533    
+insecticideD:dosehigh   -0.08250    0.14914  -0.553  0.58356    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1491 on 36 degrees of freedom
+Multiple R-squared:  0.7864,	Adjusted R-squared:  0.7211 
+F-statistic: 12.05 on 11 and 36 DF,  p-value: 4.96e-09
+
