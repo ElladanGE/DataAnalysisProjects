@@ -4,7 +4,7 @@ Analysis of Insecticide effectiveness on mosquitoes as well as Rainfall Data Ana
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the bookable room service.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 
 ## License
